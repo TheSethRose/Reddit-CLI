@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Runtime cache and personal data
+.cache/
+cache/
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+reddit.sqlite
+reddit.sqlite-*
+
+# Agent/local workspace artifacts
+*.log
