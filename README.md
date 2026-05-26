@@ -28,6 +28,12 @@ Run directly:
 python3 scripts/reddit_cli.py --help
 ```
 
+## Hermes skill
+
+This repo includes `SKILL.md` at the root, plus the bundled script at `scripts/reddit_cli.py`, so it can be copied or cloned into a Hermes skill directory named `reddit-cli`.
+
+The skill tells Hermes when to use the CLI, which commands to run, how seen-post tracking works, and the important argparse gotcha: global flags like `--refresh` must come before the subcommand.
+
 Optional local wrapper from the cloned repo directory:
 
 ```bash
